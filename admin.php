@@ -726,7 +726,7 @@ function geoposty_conf() {
 						<td colspan="2" class="aligncenter">
 <?php 
 	if (empty($geoposty_api_key)) {
-		if($_SERVER['HTTP_HOST'] == 'localhost') { echo '<a href="http://geoposty.com/request-your-test-api-key/" target="_blank">Request a <b>LOCALHOST</b> test API key</a>'; }
+		if($_SERVER['HTTP_HOST'] == 'localhost') { echo '<a href="http://geoposty.com/request-geoposty-localhost-development-key/" target="_blank">Request a <b>LOCALHOST</b> test API key</a>'; }
 		else { echo '<a href="http://geoposty.com/request-your-api-key/" target="_blank">Request an API key</a>'; }
 	}
 ?>

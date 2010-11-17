@@ -221,6 +221,7 @@ function mapResults(sc, searcher)
 
 // create click event
 function attachEvent(marker, description) {
+	if (typeof(marker) != 'object') return false;	// 11/11/2010 fix for IE bug (McInvale)
 	var infowindow = new google.maps.InfoWindow({
 		content: description
 	});
