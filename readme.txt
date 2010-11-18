@@ -1,4 +1,4 @@
-=== Geoposty ===
+=== Geo Location Widgets Geoposty ===
 
 Contributors: Mobiah, mcinvale
 Tags: geolocation, geotargeting, ip geolocation, geolocated content, geotargeted content, geomarketing, geocoding, geographic location, geotargeting radius, localized content
@@ -34,6 +34,9 @@ A note about best practices: GeoPosty is not for spammers or other unsavory folk
 
 [1] Shortcodes should NOT be used in page titles because they will break your URLs!
 
+== Screenshots ==
+
+1 Geoposty weather widget
 
 == Installation ==
 
@@ -93,7 +96,9 @@ Initial release
 	* fixed bug caused by saving blank redirects
 
 0.9.2 November 3, 2010
+
 	* enable testing of plugin on a localhost
+	* new help section
 
 == License ==
 
