@@ -11,11 +11,6 @@
 	Author URI: http://geoposty.com/
 */
 
-// debug
-// error_reporting (E_ALL ^ E_NOTICE);
-// ini_set("display_errors", 1);
-// debug
-
 define('GDEBUG',false);
 define('SERVER','http://api.geoposty.com/');
 define('GEOSERVER','http://api.geoposty.com/geo.php?');
@@ -56,8 +51,7 @@ if (empty($geoposty_api_key)) {
 	require(dirname(__FILE__)  . '/reporting.php');
 
 	if (!is_admin()) {
-		// make sure we have jquery
-		wp_enqueue_script('jquery');
+		wp_enqueue_script('jquery'); // make sure we have jquery
 
 		// we need javascript for the google widgets!
 		wp_register_script('googlejs', "http://www.google.com/jsapi");

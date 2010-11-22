@@ -1,7 +1,7 @@
-=== Geo Location Widgets Geoposty ===
+=== Geoposty GeoLocation Widgets, Posts and Redirects ===
 
 Contributors: Mobiah, mcinvale
-Tags: geolocation, geotargeting, ip geolocation, geolocated content, geotargeted content, geomarketing, geocoding, geographic location, geotargeting radius, localized content
+Tags: location, geolocation, geotargeting, geo, ip geolocation, geolocated content, geotargeted content, geomarketing, geocoding, geographic location, geotargeting radius, localized content, location widgets
 Requires at least: 2.7
 Tested up to: 3.0.1
 Stable tag: 0.9.2
@@ -12,7 +12,7 @@ Geoposty determines your visitor's location from their ip address, then displays
 
 Geoposty shows each of your readers information that is unique to their location and relevant to your site.
 
-First, we combine your user's ip address with the world's most accurate database of geoip information.  Next, we use your custom search term/text/point of interest and combine it with reliable APIs from Google and others.  Mix it all together and you get the most relevant, personalized, location-specific content that ever made a WordPress user happy.
+First, we combine your user's IP address with the world's most accurate database of geolocation IP information.  Next, we use your custom search term/text/point of interest and combine it with reliable APIs from Google and others.  Mix it all together and you get the most relevant, personalized, location-specific content that ever made a WordPress user happy.
 
 The geolocation data used by this plugin--provided by Quova, Inc.--is free until further notice.  Heavy data usage is subject to capping. 
 
@@ -36,7 +36,7 @@ A note about best practices: GeoPosty is not for spammers or other unsavory folk
 
 == Screenshots ==
 
-1 Geoposty weather widget
+1. Geoposty weather widget
 
 == Installation ==
 
@@ -61,8 +61,8 @@ A: **For the "Visitors to this url:" box, enter only the portion of the address 
 
 **For the "will be directed to this url:" box, enter the full URL no matter what domain the destination url is on (e.g. "http://www.yourdomain.com/texas/" or "http://www.volvo-north-america.com")
 
-Q: Who's the man/woman?
-A: You are.
+Q: Can I try out GeoPosty on my local machine?
+A: Yes. When installing the geoposty plugin on localhost, you will automatically receive a localhost API test key. When you are ready to move geoposty to your real server, just make sure to reinstall Geoposty on your server to obtain the correct API key for your domain.
 
 == Upgrade Notice ==
 
