@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: Geo Location Tool GeoPosty 
+	Plugin Name: Geoposty GeoLocation Widgets, Posts and Redirects
 
 	Plugin URI: http://geoposty.com/
 
