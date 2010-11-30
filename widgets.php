@@ -117,9 +117,9 @@ class postyMapSidebar extends WP_Widget {
 			<p><label for="<?php echo $this->get_field_id( 'location' ); ?>">Location <input name="<?php echo $this->get_field_name('location'); ?>" id="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo $location; ?>" class="widefat" /></label><br /><em>A comma separated list of valid locations.</em></p>
 		</div>
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results? </p>	 
+		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results?</label></p> 
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $marker, 'on' ); ?> id="<?php echo $this->get_field_id( 'marker' ); ?>" name="<?php echo $this->get_field_name( 'marker' ); ?>" /> <label for="<?php echo $this->get_field_id( 'marker' ); ?>">Display Marker? </p>	 
+		<p><input class="checkbox" type="checkbox" <?php checked( $marker, 'on' ); ?> id="<?php echo $this->get_field_id( 'marker' ); ?>" name="<?php echo $this->get_field_name( 'marker' ); ?>" /> <label for="<?php echo $this->get_field_id( 'marker' ); ?>">Display Marker?</label></p>	 
 
  
 		<p>You can use <a href="http://geoposty.com/shortcodes">shortcodes</a> in the title.</p>
@@ -250,7 +250,7 @@ class postyGoogleMapSidebar extends WP_Widget {
 			<p><label for="<?php echo $this->get_field_id( 'location' ); ?>">Location <input name="<?php echo $this->get_field_name('location'); ?>" id="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo $location; ?>" class="widefat" /></label><br /><em>A comma separated list of valid locations.</em></p>
 		</div>
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results? </p>	
+		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results?</label></p>	
 
 		<p>You can use <a href="http://geoposty.com/shortcodes">shortcodes</a> in the title.</p>  
 	<?php
@@ -367,7 +367,7 @@ class postyTextSidebar extends WP_Widget {
 			<p><label for="<?php echo $this->get_field_id( 'location' ); ?>">Location <input name="<?php echo $this->get_field_name('location'); ?>" id="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo $location; ?>" class="widefat" /></label><br /><em>A comma separated list of valid locations.</em></p>
 		</div>
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results? </p>	
+		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results?</label></p>	
 
 		<p>You can use <a href="http://geoposty.com/shortcodes">shortcodes</a> in the text or title.</p>
 		  
@@ -442,9 +442,9 @@ class postyWeatherSidebar extends WP_Widget {
 
 		<p><label for="<?php echo $this->get_field_id( 'title' ); ?>">Title <input name="<?php echo $this->get_field_name('title'); ?>" id="<?php echo $this->get_field_id( 'title' ); ?>" type="text" value="<?php echo stripslashes($title); ?>" class="widefat" /></label></p>
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $image, 'on' ); ?> id="<?php echo $this->get_field_id( 'image' ); ?>" name="<?php echo $this->get_field_name( 'image' ); ?>" /> <label for="<?php echo $this->get_field_id( 'image' ); ?>">Display Image? </p>
-		<p><input class="checkbox" type="checkbox" <?php checked( $humidity, 'on' ); ?> id="<?php echo $this->get_field_id( 'humidity' ); ?>" name="<?php echo $this->get_field_name( 'humidity' ); ?>" /> <label for="<?php echo $this->get_field_id( 'humidity' ); ?>">Display Humidity? </p>
-		<p><input class="checkbox" type="checkbox" <?php checked( $wind, 'on' ); ?> id="<?php echo $this->get_field_id( 'wind' ); ?>" name="<?php echo $this->get_field_name( 'wind' ); ?>" /> <label for="<?php echo $this->get_field_id( 'wind' ); ?>">Display Wind? </p>
+		<p><input class="checkbox" type="checkbox" <?php checked( $image, 'on' ); ?> id="<?php echo $this->get_field_id( 'image' ); ?>" name="<?php echo $this->get_field_name( 'image' ); ?>" /> <label for="<?php echo $this->get_field_id( 'image' ); ?>">Display Image?</label></p>
+		<p><input class="checkbox" type="checkbox" <?php checked( $humidity, 'on' ); ?> id="<?php echo $this->get_field_id( 'humidity' ); ?>" name="<?php echo $this->get_field_name( 'humidity' ); ?>" /> <label for="<?php echo $this->get_field_id( 'humidity' ); ?>">Display Humidity?</label></p>
+		<p><input class="checkbox" type="checkbox" <?php checked( $wind, 'on' ); ?> id="<?php echo $this->get_field_id( 'wind' ); ?>" name="<?php echo $this->get_field_name( 'wind' ); ?>" /> <label for="<?php echo $this->get_field_id( 'wind' ); ?>">Display Wind?</label></p>
 		
 		<p><label for="<?php echo $this->get_field_id( 'measurement' ); ?>">Measurement <select name="<?php echo $this->get_field_name('measurement'); ?>" id="<?php echo $this->get_field_id( 'measurement' ); ?>">
 						<option <?php if ($measurement == 'Fahrenheit') echo 'selected="selected"'; ?>>Fahrenheit</option>
@@ -493,7 +493,7 @@ class postyWeatherSidebar extends WP_Widget {
 
 			<p><label for="<?php echo $this->get_field_id( 'location' ); ?>">Location <input name="<?php echo $this->get_field_name('location'); ?>" id="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo $location; ?>" class="widefat" /></label><br /><em>A comma separated list of valid locations.</em></p>
 		</div>	
-		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results? </p>	  
+		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results?</label></p>	  
 
 	<?php
 	}
@@ -612,7 +612,7 @@ class postyBusinessSidebar extends WP_Widget {
 			<p><label for="<?php echo $this->get_field_id( 'location' ); ?>">Location <input name="<?php echo $this->get_field_name('location'); ?>" id="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo $location; ?>" class="widefat" /></label><br /><em>A comma separated list of valid locations.</em></p>
 		</div>
 
-		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results? </p>	
+		<p><input class="checkbox" type="checkbox" <?php checked( $reverse, 'on' ); ?> id="<?php echo $this->get_field_id( 'reverse' ); ?>" name="<?php echo $this->get_field_name( 'reverse' ); ?>" /> <label for="<?php echo $this->get_field_id( 'reverse' ); ?>">Reverse filtering results?</label></p>	
 	<?php
 	}
 }
