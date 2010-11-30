@@ -100,6 +100,10 @@ Initial release
 	* enable testing of plugin on a localhost
 	* new help section
 
+0.9.3 November 30, 2010
+
+	* IE bug fix 
+
 == License ==
 
 Licensed under the GNU General Public License
