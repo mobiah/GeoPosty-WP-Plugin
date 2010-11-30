@@ -1,11 +1,11 @@
 <?php
 /*
-	Plugin Name: Geo Location Tool GeoPosty 
+	Plugin Name: Geoposty GeoLocation Widgets, Posts and Redirects
 
 	Plugin URI: http://geoposty.com/
 
 	Description: Provide users a more geographically rich experience with GeoPosty.  Leveraging IP geo location data from the Quova platform, you can provide users with maps, weather, business, and text not only relevant to your topic, but relevant to your user's location.  Widgets and shortcodes are preloaded to make implementation a snap.
-	Version: 0.9.2
+	Version: 0.9.3
 
 	Author: GeoPosty Team
 	Author URI: http://geoposty.com/

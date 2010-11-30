@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-		console.debug('geoposty-admin.js');
 	// $() will work as an alias for jQuery() inside of this function
 
 	$('textarea.geoTextCounter').keypress(function() { 
@@ -14,8 +13,8 @@ jQuery(document).ready(function($) {
 	$('#geoposty-conf').live('submit', function() {
 		var geoKey = $('#geoPostyKey').val();
 		var geoTest = $('#geoPostyTest').val();
-		console.debug('geoposty-conf geoKey=' + geoKey);
-		console.debug('geoposty-conf geoTest=' + geoTest);
+		//console.debug('geoposty-conf geoKey=' + geoKey);
+		//console.debug('geoposty-conf geoTest=' + geoTest);
 
 		if (geoTest == 'go') {
 			return true;
@@ -29,9 +28,8 @@ jQuery(document).ready(function($) {
 		};		
 
 		$.get(ajaxurl, data, function(response) {
-			console.debug('geoposty-conf ajaxurl=' + ajaxurl);
-			console.debug('geoposty-conf response=' + response);
-			console.debug('geoposty-conf data=' + data);
+			//console.debug('geoposty-conf ajaxurl=' + ajaxurl);
+			//console.debug('geoposty-conf response=' + response);
 			if (response.length > 2) {
 				$('#geoKeyReply').addClass('updated').html(response);
 			} else {
