@@ -32,10 +32,13 @@ function geoContentFilter( $attributes, $output = null ) {
 	), $attributes));
 
 	if (!empty($distancefrom) && $miles > 1) {
-		if (geoDistanceFrom($distancefrom) > $miles) return false;
+		if (geoDistanceFrom($distancefrom) > $miles && empty($reverse)) return false;
+		elseif (geoDistanceFrom($distancefrom) < $miles && $reverse) return false;
+	} elseif (!empty($locationtype)) {
+		$locationTest = geoLocationContent($locationtype, $location, $reverse);
+		if (!$locationTest && empty($reverse)) return false;
+		elseif ($locationTest && $reverse) return false;
 	}
-	$locationTest = geoLocationContent($locationtype, $location, $reverse);
-	if (!$locationTest) return false;
 
 	return do_shortcode($output);
 }

@@ -1,10 +1,10 @@
 === Geoposty GeoLocation Widgets, Posts and Redirects ===
 
 Contributors: Mobiah, mcinvale
-Tags: location, geolocation, geotargeting, geo, ip geolocation, geolocated content, geotargeted content, geomarketing, geocoding, geographic location, geotargeting radius, localized content, location widgets
+Tags: location, geolocation, geotargeting, geo, ip geolocation, geolocated content, geotargeted content, geomarketing, geocoding, geographic location, geotargeting radius, localized content, location widgets, marketing, fun, blog, website, site, awesome, best, nirvana
 Requires at least: 2.7
 Tested up to: 3.0.1
-Stable tag: 0.9.3
+Stable tag: 0.9.4
 
 Geoposty determines your visitor's location from their ip address, then displays dynamic content that is specific to their area.
 
@@ -102,7 +102,11 @@ Initial release
 
 0.9.3 November 30, 2010
 
-	* IE bug fix 
+	* IE bug fix      
+
+0.9.4 December 3, 2010
+
+	* Reverse filtering works now  
 
 == License ==
 
